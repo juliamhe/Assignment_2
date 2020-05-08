@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="./main.js" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="ToDoListe.css" media="screen" />
+    <title>To Do Liste mit Typescript</title>
+  </head>
+  <body>
+    <h1>To Do Liste:</h1>
+    <form id="toDo-form">
+      <label for="description">Füge eine Aufgabe hinzu:</label>
+      <input type="text" id="description">
+      <br>
+      <br>
+      <label for="priority">Füge die Priorität hinzu:</label>
+      <input type="text" id="priority">
+      <div><button type="submit">Hinzufügen</button></div>
+    </form>
+    <br>
+    <br>
+    <br>
+    <h3>Noch zu erledigen:</h3>
+    <div class="">
+      <ul id="output" data-role="vollständigte liste"></ul>
+    </div>
+  </body>
+</html>
+

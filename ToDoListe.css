@@ -1,0 +1,44 @@
+body   { 
+    background-color: rgb(228, 248, 255); 
+
+}
+
+button {
+    position: fixed;
+    left: 5%; 
+    top: 22%;
+    
+      width: 100px;
+      height: 20px;
+      border: 1px solid rgb(255, 255, 255);
+      border-radius: 20px; 
+      background: rgb(22, 73, 133);
+      display: block;
+      text-align: center;
+      color: #DBDBDB ;
+      font-family:arial, "lucida console", sans-serif;
+    }
+
+    h1 {
+        color:rgb(22, 73, 133);
+        font-size:28pt;
+        font-family:arial, "lucida console", sans-serif;
+    }
+
+    label {
+        color:rgb(0, 0, 0);
+        font-size:12pt;
+        font-family:arial, "lucida console", sans-serif;
+    }
+
+    h3 {
+        color:rgb(10, 32, 56);
+        font-size:20pt;
+        font-family:arial, "lucida console", sans-serif;
+    }
+
+    ul {
+        color:rgb(0, 0, 0);
+        font-size:12pt;
+        font-family:arial, "lucida console", sans-serif;
+    }
